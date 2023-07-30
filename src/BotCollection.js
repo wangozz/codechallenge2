@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './BotCollection.css'; 
 
 const BotCollection = () => {
   const [robots, setRobots] = useState([]);
@@ -21,10 +22,13 @@ const BotCollection = () => {
         <ul>
           {robots.map((robot) => (
             <li key={robot.id}>
-              <h3>{robot.name}</h3>
-              <p>{robot.health}</p>
-              <p>{robot.damage}</p>
-              <p>{robot.armor}</p>
+              <h3>Name:{robot.name}</h3>
+              <p>Health:{robot.health}</p>
+              <p>Damage:{robot.damage}</p>
+              <p>Armor:{robot.armor}</p>
+              <p>Level:{robot.bot_class}</p>
+              <button>Equip</button>
+              <button>Fire</button>
             </li>
           ))}
         </ul>

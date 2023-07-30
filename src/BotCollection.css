@@ -1,0 +1,71 @@
+/* Main container */
+div {
+  text-align: center;
+}
+
+/* Main header */
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Robot card styles */
+li {
+  list-style-type: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(25% - 20px); /* Four items per row */
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f0eae2; /* Light brown background */
+}
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'YourCrypticFont', sans-serif; /* Replace 'YourCrypticFont' with your desired font */
+  margin-bottom: 5px;
+}
+
+/* "Equip" button styles */
+.equip-btn {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ffffff; /* White background */
+  transition: background 0.2s ease-in-out;
+}
+
+.equip-btn:hover {
+  background-color: #d1ccc0; /* Light brown background on hover */
+}
+
+/* "Fire" button styles */
+.fire-btn {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000000; /* Black background */
+  transition: background 0.2s ease-in-out;
+}
+
+.fire-btn:hover {
+  background-color: #4d4d4d; /* Darker black background on hover */
+}
