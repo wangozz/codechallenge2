@@ -1,6 +1,6 @@
 import React from 'react';
 import BotCollection from './BotCollection';
-//import YourBotArmy from './YourBotArmy';
+import YourBotArmy from './YourBotArmy';
 
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div>
       <h1>THE ROBOT COMPANY</h1>
       <BotCollection/>
+      <YourBotArmy/>
     </div>
   );
 };
