@@ -11,8 +11,6 @@ const BotCollection = () => {
       .catch(err => console.log(err))
 },[]);
 
-  console.log('Robots in state:', robots);
-
   return (
     <div>
       <h1>Your Robots</h1>
