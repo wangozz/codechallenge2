@@ -25,8 +25,7 @@ const BotCollection = () => {
               <p>Damage:{robot.damage}</p>
               <p>Armor:{robot.armor}</p>
               <p>Level:{robot.bot_class}</p>
-              <button>Equip</button>
-              <button>Fire</button>
+            
             </li>
           ))}
         </ul>
