@@ -17,7 +17,7 @@ const YourBotArmy = () => {
     <div>
       <h1>Your Bot Army</h1>
       {botArmy.length === 0 ? (
-        <p>No bots in the army. Equip some bots from the collection!</p>
+        <p>No bots in the army. Equip some bots </p>
       ) : (
         <ul>
           {botArmy.map((bot) => (
